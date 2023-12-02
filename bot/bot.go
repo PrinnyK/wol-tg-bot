@@ -5,7 +5,6 @@ import (
 	"log"
 	"os"
 	"os/signal"
-	"strings"
 	"syscall"
 	"wol-tg-bot/util"
 )
@@ -72,7 +71,7 @@ func Start(config *WolBotConfig) error {
 
 func isUserInvalid(validUserNameList []string, userName string) bool {
 	for _, validUser := range validUserNameList {
-		if strings.EqualFold(userName, validUser) {
+		if userName == validUser {
 			return false
 		}
 	}
