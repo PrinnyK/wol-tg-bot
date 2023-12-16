@@ -9,7 +9,7 @@ Wake-on-LAN（WoL）唤醒目标设备。例如，可部署家用路由器或其
 ### 部署Bot
 ```bash
 # 下载代码
-git clone https://github.com/your-username/wol-tg-bot.git
+git clone https://github.com/PrinnyK/wol-tg-bot.git
 cd wol-tg-bot
 
 # 编译本机平台执行
